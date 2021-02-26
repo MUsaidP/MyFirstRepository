@@ -1,0 +1,105 @@
+@media only screen and (max-width: 740px) and (min-width: 300px){
+    .category-name{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-weight: 500;
+        color: black;
+        font-size: 16px;
+    }
+    .category-shopnow-btn{
+        position: absolute;
+        top: 50%;
+        left: 8%;
+    }
+    #category-shopnow-btn{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        border-radius: 100px;
+        transition: background-color 1s;
+    }
+    #category-shopnow-btn:hover{
+        background-color:rgb(17, 0, 255);
+        color: white;
+        border-radius: 100px;
+    }
+    .navigation-link{
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        color: black;
+        transition: color 1s;
+    }
+    .navigation-link:hover{
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        color: rgb(17, 0, 255);
+    }
+    .product-img{
+        height: 300px;
+        width: 100%;
+    }
+    #footer-link{
+        margin-left: 0%;
+        color:  black;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    #footer-link:hover{
+        margin-left: 0%;
+        color:  rgb(17, 0, 255);
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .product-card:hover{
+        color: black;
+        background-color: white;    
+    }
+}
+/* MOBILE PHONES */
+@media only screen and (max-width: 1024px) and (min-width: 760px){
+    .navigation-link{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        color: black;
+        transition: color 1s;
+    }
+    .navigation-link:hover{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        color: rgb(17, 0, 255);
+    }
+    .category-shopnow-btn{
+        position: absolute;
+        top: 60%;
+        left: 8%;
+    }
+    #footer-link{
+        margin-left: 0%;
+        color: black;
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration: none;
+        transition: color 1s;
+    }
+    #footer-link:hover{
+        margin-left: 0%;
+        color:  rgb(17, 0, 255);
+        font-weight: 500;
+        font-size: 18px;
+    }   
+    #footer-socialMedia-icons{
+        color: black;
+        font-size: 40px;
+        margin-left: 140px;
+    } 
+    #footer p{
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+/* TABLET DEVICES */

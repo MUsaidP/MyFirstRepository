@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+#navigation-bar{
+    width: 100%;
+}
+#logo{
+    width: 150px;
+    height: 100px;
+}
+.navigation-link{
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    transition: color 1s;
+}
+.navigation-link:hover{
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(17, 0, 255);
+}
+.active{
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(17, 0, 255);
+}
+#banner{
+    background-color: rgba(243, 229, 229, 0.897);
+    width: 100%;
+}
+#category{
+    width: 100%;
+}
+.category-gender{
+    background-color: rgb(17, 0, 255);
+}
+.category-banner-img{
+    position: relative;
+    transition: opacity 1s;
+}
+.category-banner-img:hover{
+    position: relative;
+    opacity: .6;
+}
+.category-name{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-weight: 500;
+    color: black;
+}
+.category-shopnow-btn{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+#category-shopnow-btn{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    transition: background-color 1s;
+}
+#category-shopnow-btn:hover{
+    background-color:rgb(17, 0, 255);
+    color: white;
+    border-radius: 100px;
+}
+#product-overview{
+    width: 100%;
+    background-color: rgba(243, 229, 229, 0.897);
+}
+#shopnow-btn{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    transition: background-color 1s;
+}
+#shopnow-btn:hover{
+    background-color: rgb(17, 0, 255);
+    color: white;
+    border-radius: 100px;
+}
+#btn-submit{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    transition: background-color 1s;
+}
+#btn-submit:hover{
+    background-color: rgb(17, 0, 255);
+    color: white;
+    border-radius: 100px;
+}
+.product-name, .product-price, .product-size, .product-code{
+    font-weight: 500;
+    text-align: center;
+}
+.product-card{
+    margin-top: 20px;
+    transition: background-color 1s, color 1s;
+}
+.product-card:hover{
+    color: white;
+    background-color: rgba(17, 0, 255, 0.7);    
+}
+.product-img{
+    height: 300px;
+}
+#footer{
+    width: 100%;
+}
+#footer-link{
+    margin-left: 40%;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 1s;
+}
+#footer-link:hover{
+    margin-left: 40%;
+    color:  rgb(17, 0, 255);
+    font-weight: 500;
+    font-size: 18px;
+}   
+#footer-socialMedia-icons{
+    color: black;
+    font-size: 40px;
+    margin-left: 15%;
+} 
+#footer p{
+    font-size: 18px;
+    text-align: justify;
+}
+#product-navigation-bar{
+    width: 100%;
+}
+.product-navigation-link{
+    font-size:20px;
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+}
+#product-jeans{
+    width: 100%;
+    background-color: rgba(243, 229, 229, 0.897);    
+}
+#product-trousers{
+    width: 100%;
+}
+#product-shorts{
+    width: 100%;
+    background-color: rgba(243, 229, 229, 0.897);    
+}
+#product-tshirts{
+    width: 100%;
+}
+#product-shirts{
+    width: 100%;
+    background-color: rgba(243, 229, 229, 0.897);    
+}
+#contact-info{
+    background-color: rgba(243, 229, 229, 0.897);     
+}
